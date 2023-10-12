@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Code Compiler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/theme-monokai.css">
+</head>
+<body>
+    <h1>Java Code Compiler</h1>
+    <textarea id="editor" rows="10" cols="50">class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, World!");
+        }
+    }
+    </textarea>
+    <button id="runButton" onclick="compileAndRunJava()">Compile & Run</button>
+    <pre id="output"></pre>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="editor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/java-runner@1.0.0/dist/index.js"></script>
+    <script type="text/javascript" src="https://docs.oracle.com/en/java/javase/11/docs/api/jdk.jshell/jdk/jshell/JShell.html"></script>
+
+
+</body>
+</html>
